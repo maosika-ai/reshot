@@ -53,6 +53,8 @@ pip install reshot        # needs ffmpeg on PATH
 
 No ffmpeg? `pip install "reshot[ffmpeg]"` bundles one. No Python set up at all? [uv](https://docs.astral.sh/uv/) does everything in one line: `uvx --from "reshot[ffmpeg]" reshot reference.mp4 -o depth.mp4 --target seedance`. The model weights (111 MB) download on first run.
 
+**Official channels only:** ReShot by Maosika is published only on [PyPI](https://pypi.org/project/reshot/), GitHub [maosika-ai](https://github.com/maosika-ai/reshot), [Hugging Face](https://huggingface.co/spaces/maosika/reshot) and [ModelScope](https://modelscope.cn/models/maosika/reshot) — there is no `.exe` or Windows installer, so any "ReShot" zip or exe offered elsewhere is not ours; do not run it.
+
 ### Or let your AI coding tool do it
 
 Using Claude Code, Codex, Cursor or any other AI agent? Paste this and it will install, verify the GPU, and run a test clip for you:

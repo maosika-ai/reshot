@@ -53,6 +53,8 @@ pip install reshot        # 需要 PATH 里有 ffmpeg
 
 没有 ffmpeg 就装 `pip install "reshot[ffmpeg]"`，自带一个。连 Python 都没配？用 [uv](https://docs.astral.sh/uv/) 一行搞定：`uvx --from "reshot[ffmpeg]" reshot 参考片.mp4 -o 深度图.mp4 --target seedance`。模型权重 111 MB，首次运行自动下载；国内先 `export HF_ENDPOINT=https://hf-mirror.com`。
 
+**只认官方渠道：**ReShot by Maosika 只在 [PyPI](https://pypi.org/project/reshot/)、GitHub [maosika-ai](https://github.com/maosika-ai/reshot)、[Hugging Face](https://huggingface.co/spaces/maosika/reshot) 和[魔搭](https://modelscope.cn/models/maosika/reshot)发布，从来没有 exe 或 Windows 安装包——别处提供的「ReShot」zip / exe 下载都不是我们发的，请不要运行。
+
 ### 或者让你的 AI 编程工具来装
 
 用 Claude Code、Codex、Cursor 之类的 AI 工具？把下面这段粘给它，它会替你装好、验显卡、跑一段测试片：
